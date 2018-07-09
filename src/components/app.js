@@ -43,7 +43,7 @@ export default class App extends Component {
         }
     }
 
-    newBlog(e, title, body) {
+    newBlog(title, body) {
         if (title && body) {
             // let temp = this.state.blogs
             // temp.push({ title, body })
