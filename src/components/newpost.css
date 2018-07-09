@@ -1,0 +1,35 @@
+.new-post {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.new-post input {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.new-post textarea {
+    padding: 5px;
+    font-size: 16px;
+    width: 400px;
+    height: 200px;
+}
+
+.new-post button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #ddd;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    transition: 200ms linear;
+}
+
+.new-post button:hover {
+    background-color: green;
+    color: white;
+}
+
+.new-post h2, .new-post h3 {
+    color: rgb(214, 149, 64);
+}

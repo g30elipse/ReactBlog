@@ -1,0 +1,42 @@
+.blog-item {
+    padding: 10px 40px;
+}
+
+.blog-item span {
+    position: relative;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    bottom: -10px;
+    cursor: pointer;
+    transition: 150ms linear;
+}
+
+.blog-item .delete:hover {
+    background-color: red;
+}
+.blog-item .edit:hover {
+    background-color: rgba(255, 151, 32, 0.897);
+}
+
+.blog-item .delete {
+    border-bottom: red 4px solid;
+}
+.blog-item .edit {
+    border-bottom: rgba(255, 151, 32, 0.897) 4px solid;
+}
+
+.blog-item h2 {
+    padding-left: 30px;
+    color: #444;
+    font-family: cursive;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #fdf;
+}
+
+.blog-item p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #555;
+}
